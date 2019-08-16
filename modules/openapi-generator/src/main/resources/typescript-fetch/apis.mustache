@@ -200,7 +200,7 @@ export class {{classname}} extends runtime.BaseAPI {
 
         {{#returnType}}
         {{#isResponseFile}}
-        return new runtime.BlobApiResponse(response);
+        return new runtime.FileApiResponse(response);
         {{/isResponseFile}}
         {{^isResponseFile}}
         {{#returnTypeIsPrimitive}}

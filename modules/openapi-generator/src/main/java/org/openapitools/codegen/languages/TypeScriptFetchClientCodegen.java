@@ -278,7 +278,7 @@ public class TypeScriptFetchClientCodegen extends AbstractTypeScriptClientCodege
         this.reservedWords.add("ResponseTransformer");
         this.reservedWords.add("JSONApiResponse");
         this.reservedWords.add("VoidApiResponse");
-        this.reservedWords.add("BlobApiResponse");
+        this.reservedWords.add("FileApiResponse");
         this.reservedWords.add("TextApiResponse");
     }
 
