@@ -157,6 +157,13 @@ samples/client/petstore/csharp/SwaggerClient/TestResult.xml
 samples/client/petstore/csharp/SwaggerClientWithPropertyChanged/IO.Swagger.userprefs
 samples/client/petstore/csharp-refactor/OpenAPIClient/TestResult.xml
 samples/client/petstore/csharp-refactor/OpenAPIClient/nuget.exe
+CI/samples.ci/client/petstore/csharp/OpenAPIClient/src/Org.OpenAPITools.Test/obj/Debug/
+CI/samples.ci/client/petstore/csharp-netcore/OpenAPIClient/src/Org.OpenAPITools.Test/obj/Debug/
+CI/samples.ci/client/petstore/csharp-netcore/OpenAPIClientCore/src/Org.OpenAPITools.Test/obj/Debug/
+
+# Nancy
+samples/server/petstore/nancyfx/src/Org.OpenAPITools/obj/Debug/
+samples/server/petstore/nancyfx-async/src/IO.Swagger/obj/Debug/
 
 # Python
 *.pyc
